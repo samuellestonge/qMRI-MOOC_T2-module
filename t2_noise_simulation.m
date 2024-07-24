@@ -6,7 +6,7 @@ Model = mono_t2;
 % Define signal parameters for different tissues
 x = struct;
 x.M0 = 1000;
-x.T2 = 109.77; % (in ms)
+x.T2 = 109; % (in ms)
 
 % Define the signal-to-noise ratio 
 Opt1.SNR = 10;
